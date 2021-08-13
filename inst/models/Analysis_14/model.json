@@ -1,0 +1,46 @@
+{
+ "cohortId": 22957,
+"studyStartDate": "",
+"studyEndDate": "",
+"attrition": {
+ "outcomeId": [ 22596, 22596, 22596, 22596, 22596, 22596 ],
+"description": [ "Original cohorts", "Initial plpData cohort or population", "First Exposure", "At least 365 days of observation prior", "No prior outcome", "Removing subjects with no time at risk (if any))" ],
+"targetCount": [ 51712, 51712, 51712, 51674, 50048, 49596 ],
+"uniquePeople": [ 51712, 51712, 51712, 51674, 50048, 49596 ],
+"outcomes": [ 3018, 51, 51, 51, 40, 40 ] 
+},
+"outcomeId": 22596,
+"binary": true,
+"includeAllOutcomes": true,
+"firstExposureOnly": true,
+"washoutPeriod": 365,
+"removeSubjectsWithPriorOutcome": true,
+"priorOutcomeLookback": 99999,
+"requireTimeAtRisk": false,
+"minTimeAtRisk": 364,
+"riskWindowStart": 1,
+"startAnchor": "cohort start",
+"riskWindowEnd": 30,
+"endAnchor": "cohort start",
+"coefficients": {
+ "(Intercept)": -7.1219842129059065527485,
+"14003":                        0,
+"15003":                        0,
+"16003":                        0,
+"17003":                        0,
+"18003":                        0,
+"19003":                        0,
+"20003":                        0,
+"21003":                        0,
+"8507001":                        0 
+},
+"priorVariance": 0.0094546324465762093119947,
+"log_likelihood": -259.91640595697003845999,
+"modelType": "logistic",
+"modelStatus": "OK",
+"populationCounts": {
+ "description": [ "Population count" ],
+"targetCount": [ 39677 ],
+"uniquePeople": [ 39677 ] 
+} 
+}
