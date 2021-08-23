@@ -1,15 +1,15 @@
 {
- "cohortId": 22957,
+ "cohortId": 22956,
 "studyStartDate": "",
 "studyEndDate": "",
 "attrition": {
- "outcomeId": [ 22595, 22595, 22595, 22595, 22595, 22595 ],
+ "outcomeId": [ 22599, 22599, 22599, 22599, 22599, 22599 ],
 "description": [ "Original cohorts", "Initial plpData cohort or population", "First Exposure", "At least 365 days of observation prior", "No prior outcome", "Removing subjects with no time at risk (if any))" ],
-"targetCount": [ 51712, 51712, 51712, 51674, 50464, 50018 ],
-"uniquePeople": [ 51712, 51712, 51712, 51674, 50464, 50018 ],
-"outcomes": [ 2495, 230, 230, 230, 215, 215 ] 
+"targetCount": [ 429887, 429887, 429887, 429658, 424337, 423835 ],
+"uniquePeople": [ 429887, 429887, 429887, 429658, 424337, 423835 ],
+"outcomes": [ 23210, 204, 204, 204, 105, 105 ] 
 },
-"outcomeId": 22595,
+"outcomeId": 22599,
 "binary": true,
 "includeAllOutcomes": true,
 "firstExposureOnly": true,
@@ -20,27 +20,37 @@
 "minTimeAtRisk": 364,
 "riskWindowStart": 1,
 "startAnchor": "cohort start",
-"riskWindowEnd": 30,
+"riskWindowEnd": 60,
 "endAnchor": "cohort start",
 "coefficients": {
- "(Intercept)": -5.4452075332548712793823,
-"14003":                        0,
-"15003":                        0,
-"16003":                        0,
-"17003":                        0,
-"18003":                        0,
-"19003":                        0,
-"20003":                        0,
+ "(Intercept)": -10.087767398812729879864,
+"3003": -1.4293610803022456234856,
+"5003": -0.60036901784950058580392,
+"6003": -2.5232864627209052876822,
+"7003": -2.5005077843286067640349,
+"8003": -0.58359933344943959454554,
+"9003": 0.31305175093503301297915,
+"10003": 1.2643734281511822548083,
+"11003":  1.246141122972515224987,
+"12003": 2.4256642361128615270616,
+"13003": 2.5889784511890296947456,
+"14003": 2.4934056005700218072718,
+"15003":  3.036673473317742733002,
+"16003": 2.8151284126573030697216,
+"17003": 2.8557798248504195903763,
+"18003": 3.3135653766053447810691,
+"19003": 3.5819422328511958397712,
+"20003":  4.471566077163745767109,
 "21003":                        0,
-"8507001":                        0 
+"8507001": 0.89200782430169245351692 
 },
-"priorVariance": 0.00079432823472490191128031,
-"log_likelihood": -1108.9464198202390434744,
+"priorVariance": 63.343354280634684982942,
+"log_likelihood": -651.57880563805656493059,
 "modelType": "logistic",
 "modelStatus": "OK",
 "populationCounts": {
  "description": [ "Population count" ],
-"targetCount": [ 40015 ],
-"uniquePeople": [ 40015 ] 
+"targetCount": [ 317877 ],
+"uniquePeople": [ 317877 ] 
 } 
 }
