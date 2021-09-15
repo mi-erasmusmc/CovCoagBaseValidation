@@ -131,7 +131,7 @@ runModelsFromJson <- function(outputFolder,
                                                   analysisId = analysisId)
           for (i in 1:length(stratEvaluation)) {
             evaluation$performanceEvaluation <- addEvaluation(evaluation$performanceEvaluation,
-                                                              recalibration = stratEvaluation[[i]])
+                                                              subpopEvaluation = stratEvaluation[[i]])
           }
         }
 
