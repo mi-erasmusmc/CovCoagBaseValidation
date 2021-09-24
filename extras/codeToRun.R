@@ -48,6 +48,9 @@ sampleSize = NULL
 # NULL means none (see ?CovCoagBaseValidation::execute for options)
 recalibrate <- c("recalibrationInTheLarge", "weakRecalibration")
 
+# validates models in age and sex strata
+stratifiedEval = T
+
 # extract the results to share as a zip file?
 packageResults = T
 # when extracting results - what is the min cell count?
@@ -70,4 +73,5 @@ CovCoagBaseValidation::execute(connectionDetails = connectionDetails,
                                            packageResults = packageResults,
                                            minCellCount = minCellCount,
                                            sampleSize = sampleSize,
+                               stratifiedEval = stratifiedEval,
                                            verbosity = verbosity)
